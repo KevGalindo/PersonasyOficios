@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+.container {
+    width: 80%; 
+    max-width: 600px;
+    margin-top: 20px; 
+    background-color: #df9a9a; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#json-container {
+    margin-bottom: 20px; 
+}
+
+.persona-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.persona-details {
+    flex: 1;
+}
+
+.persona-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #292929;
+}
+
+.persona-job {
+    font-size: 14px;
+    color: #666;
+}
+
+.contratar-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contratar-btn:hover {
+    background-color: #0056b3;
+}
